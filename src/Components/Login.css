@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.registrarse-bro {
+  font-family: 'Press Start 2P';
+  background: #a80077;  
+  background: -webkit-linear-gradient(to right, #66ff00, #a80077); 
+  background: linear-gradient(to right, #66ff00, #a80077); 
+  
+  
+}
+.formulario-container {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 350px;
+  padding: 20px;
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid 
+}
+  
+  .formulario-container label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  .formulario-container label span {
+    margin-bottom: 5px;
+  }
+  
+  .formulario-container label input {
+    height: 30px;
+    width: 250px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  
+  .formulario-container label p{
+    color: red;
+    font-size: small;
+    margin-top: 5px;
+  }
+  
+  .formulario-container button {
+    margin-top: 20px;
+    width: 250px;
+    height: 25px;
+    color: #fefe;
+    background-color: #111a04;
+    border: 1px solid #397623;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .formulario-container button:hover {
+    background-color: #0069d9;
+    color: #fff;
+  }
+  .header {
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2022/06/08/rick-n-morty-wallpaper.jpg);
+    
+    background-size: cover; /* nueva propiedad */
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  

@@ -1,0 +1,19 @@
+.card{
+
+        border: 8px solid rgba(red, green, blue, alpha);
+        width: 22%;
+        font-size: 8px;
+        padding: 8px;
+        padding: 8px;
+        margin: 14px;
+        border-radius: 60px;
+        background-color: rgb(154, 92, 16);
+}
+.img{
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+
+}

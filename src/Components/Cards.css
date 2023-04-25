@@ -1,0 +1,7 @@
+.cards_container{
+      display:flex;
+      padding: 15px;
+      background-color: antiquewhite;
+      width: 100%;
+}
+

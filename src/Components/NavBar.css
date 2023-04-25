@@ -1,0 +1,5 @@
+.nav{
+    border:  3px solid rebeccapurple;
+    background-color: aqua;
+    display: flex;
+}
